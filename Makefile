@@ -1,8 +1,5 @@
-CXX = g++
-CXXFLAGS = -std=c++11 -O2 -Wall
-
 code: main.cpp
-	$(CXX) $(CXXFLAGS) main.cpp -o code
+	g++ -std=c++11 -O2 main.cpp -o code
 
 clean:
 	rm -f code
